@@ -1,0 +1,59 @@
+2025-02-18 21:52:06	INFO	::casa	
+2025-02-18 21:52:06	INFO	::casa	data_update: version installed or checked less than 1 day ago, nothing updated or checked
+2025-02-18 21:52:06	INFO	::casa	measures_update: version installed or checked less than 1 day ago, nothing updated or checked
+2025-02-18 21:52:06	INFO	::casa	
+2025-02-18 21:52:06	INFO	::casa	
+2025-02-18 21:52:06	INFO	::casa	
+2025-02-18 21:52:06	INFO	::casa	
+2025-02-18 21:52:06	INFO	::casa	Python version 3.10.12
+2025-02-18 21:52:06	INFO	::casa	CASA Version CASALITH 6.6.5.31
+2025-02-18 21:52:06	INFO	::casa	optional configuration file not found, continuing CASA startup without it
+2025-02-18 21:52:06	INFO	::casa	loaded config file : /home/jennifer/.local/lib/python3.10/site-packages/casaconfig/config.py
+2025-02-18 21:52:06	INFO	::casa	
+2025-02-18 21:52:06	INFO	::casa	config values
+2025-02-18 21:52:06	INFO	::casa	    agg = False
+2025-02-18 21:52:06	INFO	::casa	    cachedir = '/home/jennifer/.casa'
+2025-02-18 21:52:06	INFO	::casa	    casaconfig_verbose = 1
+2025-02-18 21:52:06	INFO	::casa	    colors = 'Neutral'
+2025-02-18 21:52:06	INFO	::casa	    data_auto_update = True
+2025-02-18 21:52:06	INFO	::casa	    datapath = ['/home/jennifer/.casa/data']
+2025-02-18 21:52:06	INFO	::casa	    iplog = False
+2025-02-18 21:52:06	INFO	::casa	    iplogfile = '/home/jennifer/Documentos/radio_analysis_uc1/ipython-20250218-215204.log'
+2025-02-18 21:52:06	INFO	::casa	    log2term = False
+2025-02-18 21:52:06	INFO	::casa	    logfile = '/home/jennifer/Documentos/radio_analysis_uc1/casa-20250218-215204.log'
+2025-02-18 21:52:06	INFO	::casa	    measures_auto_update = True
+2025-02-18 21:52:06	INFO	::casa	    measurespath = '/home/jennifer/.casa/data'
+2025-02-18 21:52:06	INFO	::casa	    nogui = True
+2025-02-18 21:52:06	INFO	::casa	    nologfile = False
+2025-02-18 21:52:06	INFO	::casa	    nologger = True
+2025-02-18 21:52:06	INFO	::casa	    pipeline = False
+2025-02-18 21:52:06	INFO	::casa	    startupfile = '/home/jennifer/.casa/startup.py'
+2025-02-18 21:52:06	INFO	::casa	    user_site = False
+2025-02-18 21:52:06	INFO	::casa	
+2025-02-18 21:52:06	INFO	::casa	casarundata version : casarundata-2025.01.22-1.tar.gz
+2025-02-18 21:52:06	INFO	::casa	measures version : WSRT_Measures_20250218-160001.ztar
+2025-02-18 21:52:06	INFO	::casa	
+2025-02-18 21:52:06	INFO	::casa	Checking Measures tables in data repository sub-directory /home/jennifer/.casa/data/geodetic
+2025-02-18 21:52:06	INFO	::casa	  IERSeop2000 (version date, last date in table (UTC)): 2025/01/18/15:15, 2024/12/19/00:00:00
+2025-02-18 21:52:06	INFO	::casa	  IERSeop97 (version date, last date in table (UTC)): 2025/01/18/15:15, 2024/12/19/00:00:00
+2025-02-18 21:52:06	INFO	::casa	  IERSpredict (version date, last date in table (UTC)): 2025/02/18/15:15, 2025/05/19/00:00:00
+2025-02-18 21:52:06	INFO	::casa	  TAI_UTC (version date, last date in table (UTC)): 2025/02/04/15:15, 2017/01/01/00:00:00
+2025-02-18 21:52:06	INFO	importfits::::casa	##########################################
+2025-02-18 21:52:06	INFO	importfits::::casa	##### Begin Task: importfits         #####
+2025-02-18 21:52:06	INFO	importfits::::casa	importfits( fitsimage='/home/jennifer/casa/M17_P2019/ALMA01480118_m0_nomask.fits', imagename='imagen_casa.im', whichrep=0, whichhdu=-1, zeroblanks=True, overwrite=True, defaultaxes=False, defaultaxesvalues=[], beam=[] )
+2025-02-18 21:52:06	INFO	importfits::::ImageFITSConverter	Processing HDU 0
+2025-02-18 21:52:06	INFO	importfits::ImageFITSConverterImpl::FITSToImage 	Created image of shape [472, 392, 1, 1]
+2025-02-18 21:52:06	INFO	importfits::ImageFITSConverterImpl::FITSToImage 	Copy FITS file to '/home/jennifer/Documentos/radio_analysis_uc1/imagen_casa.im' All pixels fit in memory (185024 pixels).
+2025-02-18 21:52:06	INFO	importfits::ImageFITSConverterImpl::FITSToImage 	Storing mask with name 'mask0'
+2025-02-18 21:52:06	INFO	importfits::::casa	Task importfits complete. Start time: 2025-02-18 15:52:05.965811 End time: 2025-02-18 15:52:06.013364
+2025-02-18 21:52:06	INFO	importfits::::casa	##### End Task: importfits           #####
+2025-02-18 21:52:06	INFO	importfits::::casa	##########################################
+2025-02-18 21:52:06	INFO	immath::::casa	##########################################
+2025-02-18 21:52:06	INFO	immath::::casa	##### Begin Task: immath             #####
+2025-02-18 21:52:06	INFO	immath::::casa	immath( imagename='imagen_casa.im', mode='evalexpr', outfile='contornos.im', expr='iif(imagen_casa.im > -0.007918, 1, 0) + iif(imagen_casa.im > 0.007918, 1, 0) + iif(imagen_casa.im > 0.023753999999999997, 1, 0) + iif(imagen_casa.im > 0.03959, 1, 0) + iif(imagen_casa.im > 0.07918, 1, 0) + iif(imagen_casa.im > 0.15836, 1, 0) + iif(imagen_casa.im > 0.3959, 1, 0)', varnames='', sigma='0.0mJy/beam', polithresh='', mask='', region='', box='', chans='', stokes='', stretch=False, imagemd='', prec='float' )
+2025-02-18 21:52:06	SEVERE	immath::::casa	Unable to process expression iif(imagen_casa.im > -0.007918, 1, 0) + iif(imagen_casa.im > 0.007918, 1, 0) + iif(imagen_casa.im > 0.023753999999999997, 1, 0) + iif(imagen_casa.im > 0.03959, 1, 0) + iif(imagen_casa.im > 0.07918, 1, 0) + iif(imagen_casa.im > 0.15836, 1, 0) + iif(imagen_casa.im > 0.3959, 1, 0)
+2025-02-18 21:52:06	SEVERE	immath::::casa	Exception caught was: Output file contornos.im exists. immath can not proceed, please remove it or change the output file name.
+2025-02-18 21:52:06	SEVERE	immath::::casa	Task immath raised an exception of class Exception with the following message: Output file contornos.im exists. immath can not proceed, please remove it or change the output file name.
+2025-02-18 21:52:06	INFO	immath::::casa	Task immath complete. Start time: 2025-02-18 15:52:06.017969 End time: 2025-02-18 15:52:06.018090
+2025-02-18 21:52:06	INFO	immath::::casa	##### End Task: immath               #####
+2025-02-18 21:52:06	INFO	immath::::casa	##########################################

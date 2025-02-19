@@ -1,0 +1,84 @@
+# **Cálculo de Perfiles de Densidad en M17-UC1 y su Entorno**
+
+## **1. Introducción**
+El perfil de densidad describe cómo varía la densidad del gas con la distancia a una fuente central. En el caso de M17-UC1 y su entorno, analizamos tres tipos de muestras:
+
+- **Líneas moleculares de M17-UC1** → Trazan el gas molecular denso.
+- **Líneas de recombinación de M17-UC1** → Permiten estudiar el gas ionizado.
+- **Muestras de la nube M17SW** → Representan el medio molecular circundante.
+
+## **2. Perfiles de Densidad en el Gas Molecular**
+La densidad del gas molecular se estima a partir de la **columna de densidad** $N(\text{H}_2)$, la cual se puede relacionar con la intensidad integrada de las líneas de emisión molecular. Para una línea **ópticamente delgada**, podemos usar:
+
+$$
+N(\text{H}_2) = X_{\text{CO}} \times \int T_{\text{mb}} dv
+$$
+
+donde:
+- $X_{\text{CO}}$ es el factor de conversión de CO a H$_2$, típicamente $ \sim 2 \times 10^{20} $ cm$^{-2}$ K$^{-1}$ km$^{-1}$ s.
+- $T_{\text{mb}}$ es la temperatura de brillo de la línea molecular.
+- $dv$ es el intervalo de velocidades integrado.
+
+El perfil de densidad se puede estimar dividiendo la columna de densidad entre la distancia $r$:
+
+$$
+\rho(r) \propto \frac{N(\text{H}_2)}{r}
+$$
+
+En función del mecanismo físico dominante, se esperan diferentes leyes de potencia:
+
+- **Colapso en caída libre** (gravedad dominante):
+
+  $$
+  \rho(r) \propto r^{-1.5}
+  $$
+
+- **Equilibrio hidrostático** (presión y gravedad en balance):
+
+  $$
+  \rho(r) \propto r^{-2}
+  $$
+
+## **3. Perfiles de Densidad en el Gas Ionizado**
+El gas ionizado en M17-UC1 se analiza a través de **líneas de recombinación** como H$\alpha$ o H$\beta$. La **densidad electrónica** $n_e$ se puede calcular con la relación:
+
+$$
+n_e \propto \left( \frac{S_{\nu} \nu^{0.1}}{T_e^{0.5} d^2} \right)^{0.5}
+$$
+
+donde:
+- $S_{\nu}$ es la intensidad de la emisión libre-libre.
+- $\nu$ es la frecuencia de observación.
+- $T_e$ es la temperatura electrónica del gas ionizado.
+- $d$ es la distancia a la fuente.
+
+Para una UC-HII en expansión libre, se espera un perfil:
+
+$$
+n_e(r) \propto r^{-3/2}
+$$
+
+Mientras que en equilibrio hidrostático, el perfil es más empinado:
+
+$$
+n_e(r) \propto r^{-2}
+$$
+
+## **4. Perfiles de Densidad en la Nube M17SW**
+Para la nube molecular circundante, la densidad promedio del gas se puede estimar como:
+
+$$
+\rho(r) = \frac{M_{\text{gas}}}{\frac{4}{3} \pi R^3}
+$$
+
+donde:
+- $M_{\text{gas}}$ es la masa total de la nube molecular.
+- $R$ es el radio de la región analizada.
+
+Si la UC-HII está impactando la nube, se puede observar un **incremento local de densidad** en los bordes debido a la compresión del gas.
+
+## **5. Conclusión**
+Los perfiles de densidad permitirán evaluar la interacción entre M17-UC1 y su entorno:
+- Si $ \rho(r) \propto r^{-1.5} $, hay acreción de gas molecular.
+- Si $ n_e(r) \propto r^{-3/2} $, la UC-HII está en expansión.
+- Si la nube muestra un aumento de densidad cerca de UC1, indica compresión por retroalimentación estelar.
