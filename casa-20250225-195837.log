@@ -1,0 +1,122 @@
+2025-02-25 19:58:38	INFO	::casa	
+2025-02-25 19:58:38	INFO	::casa	data_update: version installed or checked less than 1 day ago, nothing updated or checked
+2025-02-25 19:59:08	INFO	::casa	measures_update ... acquiring the lock ... 
+2025-02-25 19:59:08	SEVERE	::casa	lock file is not empty : /home/jennifer/.casa/data/data_update.lock
+2025-02-25 19:59:08	SEVERE	::casa	The lock file at /home/jennifer/.casa/data is not empty.
+2025-02-25 19:59:08	SEVERE	::casa	A previous attempt to update path may have failed or exited prematurely.
+2025-02-25 19:59:08	SEVERE	::casa	Remove the lock file and set force to True with the desired version (default to most recent).
+2025-02-25 19:59:08	SEVERE	::casa	It may be best to completely repopulate path using pull_data and measures_update.
+2025-02-25 19:59:08	SEVERE	::casa	
+2025-02-25 19:59:08	SEVERE	::casa	lock file is not empty : /home/jennifer/.casa/data/data_update.lock
+2025-02-25 19:59:08	SEVERE	::casa	visit https://casadocs.readthedocs.io/en/stable/notebooks/external-data.html for more information
+2025-02-25 19:59:08	SEVERE	::casa	
+2025-02-25 19:59:08	INFO	::casa	
+2025-02-25 19:59:08	INFO	::casa	
+2025-02-25 19:59:08	INFO	::casa	
+2025-02-25 19:59:08	INFO	::casa	
+2025-02-25 19:59:08	INFO	::casa	Python version 3.10.12
+2025-02-25 19:59:08	INFO	::casa	CASA Version CASALITH 6.6.5.31
+2025-02-25 19:59:09	INFO	::casa	optional configuration file not found, continuing CASA startup without it
+2025-02-25 19:59:09	INFO	::casa	loaded config file : /home/jennifer/.local/lib/python3.10/site-packages/casaconfig/config.py
+2025-02-25 19:59:09	INFO	::casa	
+2025-02-25 19:59:09	INFO	::casa	config values
+2025-02-25 19:59:09	INFO	::casa	    agg = False
+2025-02-25 19:59:09	INFO	::casa	    cachedir = '/home/jennifer/.casa'
+2025-02-25 19:59:09	INFO	::casa	    casaconfig_verbose = 1
+2025-02-25 19:59:09	INFO	::casa	    colors = 'Neutral'
+2025-02-25 19:59:09	INFO	::casa	    data_auto_update = True
+2025-02-25 19:59:09	INFO	::casa	    datapath = ['/home/jennifer/.casa/data']
+2025-02-25 19:59:09	INFO	::casa	    iplog = False
+2025-02-25 19:59:09	INFO	::casa	    iplogfile = '/home/jennifer/Documentos/radio_analysis_uc1/ipython-20250225-195837.log'
+2025-02-25 19:59:09	INFO	::casa	    log2term = False
+2025-02-25 19:59:09	INFO	::casa	    logfile = '/home/jennifer/Documentos/radio_analysis_uc1/casa-20250225-195837.log'
+2025-02-25 19:59:09	INFO	::casa	    measures_auto_update = True
+2025-02-25 19:59:09	INFO	::casa	    measurespath = '/home/jennifer/.casa/data'
+2025-02-25 19:59:09	INFO	::casa	    nogui = True
+2025-02-25 19:59:09	INFO	::casa	    nologfile = False
+2025-02-25 19:59:09	INFO	::casa	    nologger = True
+2025-02-25 19:59:09	INFO	::casa	    pipeline = False
+2025-02-25 19:59:09	INFO	::casa	    startupfile = '/home/jennifer/.casa/startup.py'
+2025-02-25 19:59:09	INFO	::casa	    user_site = False
+2025-02-25 19:59:09	INFO	::casa	
+2025-02-25 19:59:09	INFO	::casa	casarundata version : casarundata-2025.01.22-1.tar.gz
+2025-02-25 19:59:09	INFO	::casa	measures version : WSRT_Measures_20250220-160001.ztar
+2025-02-25 19:59:09	INFO	::casa	
+2025-02-25 19:59:09	INFO	::casa	Checking Measures tables in data repository sub-directory /home/jennifer/.casa/data/geodetic
+2025-02-25 19:59:09	INFO	::casa	  IERSeop2000 (version date, last date in table (UTC)): 2025/01/18/15:15, 2024/12/19/00:00:00
+2025-02-25 19:59:09	INFO	::casa	  IERSeop97 (version date, last date in table (UTC)): 2025/01/18/15:15, 2024/12/19/00:00:00
+2025-02-25 19:59:09	INFO	::casa	  IERSpredict (version date, last date in table (UTC)): 2025/02/20/15:15, 2025/05/21/00:00:00
+2025-02-25 19:59:09	INFO	::casa	  TAI_UTC (version date, last date in table (UTC)): 2025/02/04/15:15, 2017/01/01/00:00:00
+2025-02-25 19:59:09	INFO	importfits::::casa	##########################################
+2025-02-25 19:59:09	INFO	importfits::::casa	##### Begin Task: importfits         #####
+2025-02-25 19:59:09	INFO	importfits::::casa	importfits( fitsimage='/home/jennifer/casa/M17_SW/ALMA01480118_momento1_BM.fits', imagename='imagen_casa.im', whichrep=0, whichhdu=-1, zeroblanks=True, overwrite=True, defaultaxes=False, defaultaxesvalues=[], beam=[] )
+2025-02-25 19:59:09	INFO	importfits::::ImageFITSConverter	Processing HDU 0
+2025-02-25 19:59:09	INFO	importfits::FITSCoordinateUtil::fromFITSHeader	The WCS for this image contains 2 degenerate axes.
+2025-02-25 19:59:09	INFO	importfits::ImageFITSConverterImpl::FITSToImage 	Image dimension appears to be less than number of pixel axes in CoordinateSystem
+2025-02-25 19:59:09	INFO	importfits::ImageFITSConverterImpl::FITSToImage +	Adding 2 degenerate trailing axes
+2025-02-25 19:59:09	INFO	importfits::ImageFITSConverterImpl::FITSToImage 	Created image of shape [472, 392, 1, 1]
+2025-02-25 19:59:09	INFO	importfits::ImageFITSConverterImpl::FITSToImage 	Copy FITS file to '/home/jennifer/Documentos/radio_analysis_uc1/imagen_casa.im' All pixels fit in memory (185024 pixels).
+2025-02-25 19:59:09	INFO	importfits::ImageFITSConverterImpl::FITSToImage 	Storing mask with name 'mask0'
+2025-02-25 19:59:09	INFO	importfits::::casa	Task importfits complete. Start time: 2025-02-25 13:59:08.516984 End time: 2025-02-25 13:59:08.537364
+2025-02-25 19:59:09	INFO	importfits::::casa	##### End Task: importfits           #####
+2025-02-25 19:59:09	INFO	importfits::::casa	##########################################
+2025-02-25 19:59:09	INFO	imstat::::casa	##########################################
+2025-02-25 19:59:09	INFO	imstat::::casa	##### Begin Task: imstat             #####
+2025-02-25 19:59:09	INFO	imstat::::casa	imstat( imagename='imagen_casa.im', axes=[], region='', box='', chans='', stokes='', listit=True, verbose=True, mask='', stretch=False, logfile='', append=True, algorithm='classic', fence=-1.0, center='mean', lside=True, zscore=-1.0, maxiter=-1, clmethod='auto', niter=3 )
+2025-02-25 19:59:09	INFO	imstat::CasacRegionManager::fromBCS	No directional region specified. Using full positional plane.
+2025-02-25 19:59:09	INFO	imstat::CasacRegionManager::fromBCS	Using all spectral channels.
+2025-02-25 19:59:09	INFO	imstat::CasacRegionManager::fromBCS	Using polarizations ALL
+2025-02-25 19:59:09	INFO	imstat::image::statistics 	Determining stats for image imagen_casa.im
+2025-02-25 19:59:09	INFO	imstat::ImageRegion::fromRecord	Selected bounding box : 
+2025-02-25 19:59:09	INFO	imstat::ImageRegion::fromRecord+	    [0, 0, 0, 0] to [471, 391, 0, 0]  (18:20:25.565, -16.11.53.860, -1.60704e+17Hz, I to 18:20:22.459, -16.11.16.715, -1.60704e+17Hz, I)
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::_logStartup	Statistics calculated using Classic algorithm
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::_logStartup	Regions --- 
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::_logStartup	         -- bottom-left corner (pixel) [blc]:  [0, 0, 0, 0]
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::_logStartup	         -- top-right corner (pixel) [trc]:    [471, 391, 0, 0]
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::_logStartup	         -- bottom-left corner (world) [blcf]: 18:20:25.565, -16.11.53.860, -1.60704e+17Hz, I
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::_logStartup	         -- top-right corner (world) [trcf]:   18:20:22.459, -16.11.16.715, -1.60704e+17Hz, I
+2025-02-25 19:59:09	INFO	imstat::::	Values --- 
+2025-02-25 19:59:09	INFO	imstat::::	         -- number of points [npts]:                137922
+2025-02-25 19:59:09	INFO	imstat::::	         -- maximum value [max]:                    179.423 km/s
+2025-02-25 19:59:09	INFO	imstat::::	         -- minimum value [min]:                    162.751 km/s
+2025-02-25 19:59:09	INFO	imstat::::	         -- position of max value (pixel) [maxpos]: [331, 341, 0, 0]
+2025-02-25 19:59:09	INFO	imstat::::	         -- position of min value (pixel) [minpos]: [338, 343, 0, 0]
+2025-02-25 19:59:09	INFO	imstat::::	         -- position of max value (world) [maxposf]: 18:20:23.382, -16.11.21.465, -1.60704e+17Hz, I
+2025-02-25 19:59:09	INFO	imstat::::	         -- position of min value (world) [minposf]: 18:20:23.336, -16.11.21.275, -1.60704e+17Hz, I
+2025-02-25 19:59:09	INFO	imstat::::	         -- Sum of pixel values [sum]:               2.34839e+07 km/s
+2025-02-25 19:59:09	INFO	imstat::::	         -- Sum of squared pixel values [sumsq]:     3.99904e+09 km/s.km/s
+2025-02-25 19:59:09	INFO	imstat::::	Statistics --- 
+2025-02-25 19:59:09	INFO	imstat::::	        -- Mean of the pixel values [mean]:         170.27 km/s
+2025-02-25 19:59:09	INFO	imstat::::	        -- Variance of the pixel values :           3.12703 km/s
+2025-02-25 19:59:09	INFO	imstat::::	        -- Standard deviation of the Mean [sigma]:  1.76834 km/s
+2025-02-25 19:59:09	INFO	imstat::::	        -- Root mean square [rms]:                  170.279 km/s
+2025-02-25 19:59:09	INFO	imstat::::	        -- Median of the pixel values [median]:     170.19 km/s
+2025-02-25 19:59:09	INFO	imstat::::	        -- Median of the deviations [medabsdevmed]: 1.01009 km/s
+2025-02-25 19:59:09	INFO	imstat::::	        -- IQR [quartile]:                          2.02281 km/s
+2025-02-25 19:59:09	INFO	imstat::::	        -- First quartile [q1]:                     169.155 km/s
+2025-02-25 19:59:09	INFO	imstat::::	        -- Third quartile [q3]:                     171.177 km/s
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::statistics	Sum column unit = km/s
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::statistics+	Mean column unit = km/s
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::statistics+	Std_dev column unit = km/s
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::statistics+	Minimum column unit = km/s
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::statistics+	Maximum column unit = km/s
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::statistics	Npts          Sum           Mean          Rms           Std_dev       Minimum       Maximum     
+2025-02-25 19:59:09	INFO	imstat::ImageStatsCalculator::statistics	 1.379220e+05  2.348395e+07  1.702698e+02  1.702790e+02  1.768340e+00  1.627505e+02  1.794226e+02
+2025-02-25 19:59:09	INFO	imstat::::casa	Task imstat complete. Start time: 2025-02-25 13:59:08.542334 End time: 2025-02-25 13:59:08.550784
+2025-02-25 19:59:09	INFO	imstat::::casa	##### End Task: imstat               #####
+2025-02-25 19:59:09	INFO	imstat::::casa	##########################################
+2025-02-25 19:59:09	INFO	immath::::casa	##########################################
+2025-02-25 19:59:09	INFO	immath::::casa	##### Begin Task: immath             #####
+2025-02-25 19:59:09	INFO	immath::::casa	immath( imagename='imagen_casa.im', mode='evalexpr', outfile='contornos.im', expr='iif(imagen_casa.im > 168.0, 1, 0) + iif(imagen_casa.im > 170.0, 1, 0) + iif(imagen_casa.im > 172.0, 1, 0) + iif(imagen_casa.im > 174.0, 1, 0)', varnames='', sigma='0.0mJy/beam', polithresh='', mask='', region='', box='', chans='', stokes='', stretch=False, imagemd='', prec='float' )
+2025-02-25 19:59:09	INFO	ImageExprCalculator::_imagecalc	Creating image `contornos.im' of shape [472, 392, 1, 1]
+2025-02-25 19:59:09	INFO	ImageMaskAttacher::makeMask	Created mask `mask0'
+2025-02-25 19:59:09	INFO	immath::::casa	Task immath complete. Start time: 2025-02-25 13:59:08.556600 End time: 2025-02-25 13:59:08.582753
+2025-02-25 19:59:09	INFO	immath::::casa	##### End Task: immath               #####
+2025-02-25 19:59:09	INFO	immath::::casa	##########################################
+2025-02-25 19:59:09	INFO	exportfits::::casa	##########################################
+2025-02-25 19:59:09	INFO	exportfits::::casa	##### Begin Task: exportfits         #####
+2025-02-25 19:59:09	INFO	exportfits::::casa	exportfits( imagename='contornos.im', fitsimage='/home/jennifer/casa/M17_SW/ALMA01480118_m1_contours.fits', velocity=False, optical=False, bitpix=-32, minpix=0, maxpix=-1, overwrite=True, dropstokes=False, stokeslast=True, history=True, dropdeg=False )
+2025-02-25 19:59:09	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2025-02-25 19:59:09	INFO	exportfits::::casa	Task exportfits complete. Start time: 2025-02-25 13:59:08.584615 End time: 2025-02-25 13:59:08.587072
+2025-02-25 19:59:09	INFO	exportfits::::casa	##### End Task: exportfits           #####
+2025-02-25 19:59:09	INFO	exportfits::::casa	##########################################
